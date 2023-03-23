@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADE CALCULATOR</title>
+</head>
+<body>
+    <script>
+        function gradeCalculator(num){
+            if(num >= 90 & num <= 100){
+                document.write("A")
+            }
+
+            if(num >= 80 & num <= 89){
+                document.write("B")
+            }
+
+            if(num >= 70 & num <= 79){
+                document.write("C")
+            }
+
+            if(num >= 60 & num <= 69){
+                document.write("D")
+            }
+
+            if(num >= 0 & num <= 59){
+                document.write("F")
+            }
+
+            if(num > 100 || num < 0){
+                document.write("error")
+            }
+
+
+        }
+        gradeCalculator(71)
+    </script>
+</body>
+</html>
